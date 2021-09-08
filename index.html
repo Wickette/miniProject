@@ -4,34 +4,49 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./style.css">
-    <title>Landing Page</title>
+    <title>The Really Cute Octopus</title>
 </head>
 
 <body>
+    <!-- contains nav bar with 3 inline links -->
     <header>
-        <!-- contains nav bar with 3 inline links -->
+        <div class="topNav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
     </header>
 
-
+    <!-- image with caption -->
+    <h3>Meet the Really Cute Octopus!</h3>
+    <figure>
+        <img class=cuteOcto 
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F189-1897695_octopus-cute-tentacles-pink-kawaii-smile-animal-nature.png&f=1&nofb=1"
+        width="300"
+        height="300"
+        alt="A pic of a cute octopus">
+        <figcaption> A really cute Octopus!</figcaption>
+    </figure>
 
     <!-- collects visitor's contact info -->
-<form action="" method="get" class="contact-info">
-    <div class="contact-info">
+<form action="" method="get" id="contact-info">
+    <p> Please provide the cute Octopus with you contact info for special treats!</p>
+    <div id="contact-info">
          <label for="Name">Enter your First and Last name: </label>
         <input type="text" name="name" id="name" required>
     </div>
 
-    <div class="contact-info">
+    <div id="contact-info">
         <label for="email">Enter your email: </label>
         <input type="email" name="email" id="email" required>
     </div>
 
-    <div class="contact-info">
+    <div id="submitButton">
         <input type="submit" value="Submit">
     </div>
 </form>
     
-    <!-- image with caption -->
 
     <!-- contact form -->
 
@@ -40,8 +55,8 @@
         <p>Contact the author of this page:</p>
 
         <address>
-            <a href="someone@gmail.com">Email</a><br>
-            <a href="tel:+1123456789o">1-(123)-456-7890</a>
+           Email <a href="someone@gmail.com">someone@gmail.com</a><br>
+           Phone <a href="tel:+1123456789o">1-(123)-456-7890</a>
         </address>
     </footer>
 </body>
