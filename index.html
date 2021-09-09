@@ -8,63 +8,50 @@
 </head>
 
 <body>
-    <!-- contains nav bar with 3 inline links -->
-    <header>
-        <div class="topNav">
-            <a class="active" href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-        </div>
-    </header>
 
-    <!-- image with caption -->
-    <h3>Meet the Really Cute Octopus!</h3>
+    <header class="topNav">
+            <a class="active" href="#home">Home</a>
+            <a href="#">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#">About</a>
+    </header>
+    <br><br><br>
+
+    <h1>Cute Octopus</h1>
+
     <figure>
         <img class=cuteOcto 
         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F189-1897695_octopus-cute-tentacles-pink-kawaii-smile-animal-nature.png&f=1&nofb=1"
-        width="300"
-        height="300"
         alt="A pic of a cute octopus">
+        <br>
         <figcaption> A really cute Octopus!</figcaption>
     </figure>
-
-    <!-- collects visitor's contact info -->
-<form action="" method="get" id="contact-info">
-    <p> Please provide the cute Octopus with you contact info for special treats!</p>
-    <div id="contact-info">
-         <label for="Name">Enter your First and Last name: </label>
-        <input type="text" name="name" id="name" required>
-    </div>
-
-    <div id="contact-info">
-        <label for="email">Enter your email: </label>
-        <input type="email" name="email" id="email" required>
-    </div>
-
-    <div id="submitButton">
-        <input type="submit" value="Submit">
-    </div>
-</form>
     
 
-    <!-- contact form -->
+    <footer> 
 
+        <h3><strong>Contact Me!</strong></h3>
+            
+        <p>Please enter your first and last name, and email in the boxes below</p>
+       
+        <form action="" method="get" id="contact">
 
-    <footer>
-        <p>Contact the author of this page:</p>
+                <label for="fName">First Name:</label>
+                <input type="text" ="fName" name="firstname" placeholder="Your first name.." required>
+          <br>
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" name="lastname" placeholder="Your last name.." required>
+           <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Your email.." required>
+               <br>
+                <input type="submit" value="Submit">
 
-        <address>
-           Email <a href="someone@gmail.com">someone@gmail.com</a><br>
-           Phone <a href="tel:+1123456789o">1-(123)-456-7890</a>
-        </address>
+        </form>
+
     </footer>
+
 </body>
-
-
-
-
-
 
 </html>
 
